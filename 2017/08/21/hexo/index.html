@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | VectorStack</title>
+  <title>Hexo + Github Pages 搭建个人博客 | VectorStack</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="VectorStack">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="keywords" content="Node.js,git,hexo,yilia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo + Github Pages 搭建个人博客">
+<meta property="og:url" content="http://yoursite.com/2017/08/21/hexo/index.html">
 <meta property="og:site_name" content="VectorStack">
+<meta property="og:image" content="http://yoursite.com/assets/blogImg/hexo-blog.jpg">
+<meta property="og:image" content="http://yoursite.com/assets/blogImg/hexo-blog-1.png">
+<meta property="og:updated_time" content="2017-08-31T14:21:47.200Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="VectorStack">
+<meta name="twitter:title" content="Hexo + Github Pages 搭建个人博客">
+<meta name="twitter:image" content="http://yoursite.com/assets/blogImg/hexo-blog.jpg">
   
     <link rel="alternative" href="/atom.xml" title="VectorStack" type="application/atom+xml">
   
@@ -145,63 +150,103 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-hexo" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/08/22/database/" class="archive-article-date">
-  	<time datetime="2017-08-22T01:53:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-22</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/08/22/database/">mongoDB 安装</a>
+    <h1 class="article-title" itemprop="name">
+      Hexo + Github Pages 搭建个人博客
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/08/21/hexo/" class="archive-article-date">
+        
+        <a href="/2017/08/21/hexo/" class="archive-article-date">
   	<time datetime="2017-08-21T09:26:46.184Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-21</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/08/21/hexo/">Hexo + Github Pages 搭建个人博客</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
+        
+      </header>
+    
+    <!-- 目录内容 -->
+    
+        <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+              <span class="btn-bg"></span>
+              <span class="btn-text">文章导航</span>
+              </p>
+      <div id="toc-article" class="toc-article">
+          <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+        <strong class="toc-title">文章目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#系统环境配置"><span class="toc-number">1.</span> <span class="toc-text">系统环境配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装Node-js"><span class="toc-number">1.1.</span> <span class="toc-text">安装Node.js</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装git"><span class="toc-number">1.2.</span> <span class="toc-text">安装git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装hexo"><span class="toc-number">1.3.</span> <span class="toc-text">安装hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#编写博客"><span class="toc-number">2.</span> <span class="toc-text">编写博客</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#新建博客"><span class="toc-number">2.1.</span> <span class="toc-text">新建博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加目录"><span class="toc-number">2.2.</span> <span class="toc-text">添加目录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加tag"><span class="toc-number">2.3.</span> <span class="toc-text">添加tag</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#部署"><span class="toc-number">3.</span> <span class="toc-text">部署</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#在github上新建Repository"><span class="toc-number">3.1.</span> <span class="toc-text">在github上新建Repository</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#修改-config-yml"><span class="toc-number">3.2.</span> <span class="toc-text">修改_config.yml</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更换主题"><span class="toc-number">4.</span> <span class="toc-text">更换主题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装"><span class="toc-number">4.1.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置"><span class="toc-number">4.2.</span> <span class="toc-text">配置</span></a></li></ol></li></ol>
+            </div>
+      <script type="text/javascript">
+      function showToc(){
+        var toc_article = document.getElementById("toc-article");
+        var show_toc_btn = document.getElementById("show-toc-btn");
+        toc_article.setAttribute("style","display:block");
+        show_toc_btn.setAttribute("style","display:none");
+        };
+      function showBtn(){
+        var toc_article = document.getElementById("toc-article");
+        var show_toc_btn = document.getElementById("show-toc-btn");
+        toc_article.setAttribute("style","display:none");
+        show_toc_btn.setAttribute("style","display:block");
+        };
+      </script>
           
+    <!-- 目录内容结束 -->
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="/assets/blogImg/hexo-blog.jpg" width="50%"> </p>
+<a id="more"></a>
+<h2 id="系统环境配置"><a href="#系统环境配置" class="headerlink" title="系统环境配置"></a>系统环境配置</h2><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p><a href="https://nodejs.org/zh-cn/download/" target="_blank" rel="external">下载Node.js</a><br>参考地址：<a href="http://www.w3cschool.cc/nodejs/nodejs-install-setup.html" target="_blank" rel="external">安装Node.js</a></p>
+<h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p><a href="https://git-scm.com/downloads" target="_blank" rel="external">下载git</a><br>参考地址：<a href="https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="external">安装git</a></p>
+<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> d:/project/hexo   <span class="comment">#进入文件夹</span></div><div class="line">$ npm install hexo-cli -g   <span class="comment">#全局安装hexo-cli模块</span></div><div class="line">$ hexo init blog       <span class="comment">#初始化hexo工程</span></div><div class="line">$ <span class="built_in">cd</span> blog              <span class="comment">#进入生成的blog工程</span></div><div class="line">$ npm install          <span class="comment">#npm 安装package.json中的dependencies</span></div><div class="line">$ hexo g  <span class="comment"># 或者hexo generate 生成静态页面</span></div><div class="line">$ hexo s  <span class="comment"># 或者hexo server, 启动服务,浏览器输入网址http://localhost:4000/即可查看</span></div></pre></td></tr></table></figure>
+<p>显示页面如下，则安装成功</p>
+<p><img src="/assets/blogImg/hexo-blog-1.png" width="50%"> </p>
+<p>注意：如果输入网址后没有响应,则可能4000端口占用,可使用以下命令切换端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server -p 4001 <span class="comment">#-p p指port,4001是新的端口</span></div></pre></td></tr></table></figure></p>
+<h2 id="编写博客"><a href="#编写博客" class="headerlink" title="编写博客"></a>编写博客</h2><h3 id="新建博客"><a href="#新建博客" class="headerlink" title="新建博客"></a>新建博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#不要关闭服务控制台,新开控制台</span></div><div class="line">$ <span class="built_in">cd</span> d:/project/hexo/blog  <span class="comment">#进入blog工程</span></div><div class="line">$ hexo new <span class="string">"postName"</span> <span class="comment">#新建文章,"postName"是文章标题,可任意修改</span></div><div class="line"><span class="comment">#新建成功会在source\_posts新生成postName.md文件</span></div></pre></td></tr></table></figure>
+<p>打开postName.md文件，即可使用<a href="https://markdown-zh.readthedocs.io/en/latest/overview/" target="_blank" rel="external">Markdown</a>语法写博客啦！<br>刷新页面可查看文章哦！</p>
+<h3 id="添加目录"><a href="#添加目录" class="headerlink" title="添加目录"></a>添加目录</h3><p>找到hemes/landscape/layout/_partial/article.ejs文件,在<strong>&lt;%- post.content %&gt;</strong>之前加入如下代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;!-- Table of Contents --&gt;</div><div class="line">&lt;% <span class="keyword">if</span> (!index &amp;&amp; post.toc)&#123; %&gt;</div><div class="line">&lt;div id=<span class="string">"toc"</span> class=<span class="string">"toc-article"</span>&gt;</div><div class="line">&lt;strong class=<span class="string">"toc-title"</span>&gt;文章目录&lt;/strong&gt;</div><div class="line">&lt;%- toc(post.content) %&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">&lt;% &#125; %&gt;</div></pre></td></tr></table></figure></p>
+<p>找到themes/landscape/source/css/_partial/article.styl,在文件的最后，添加如下代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">/*toc*/</div><div class="line">.toc-article</div><div class="line">background <span class="comment">#eee</span></div><div class="line">border 1px solid <span class="comment">#bbb</span></div><div class="line">border-radius 10px</div><div class="line">margin 1.5em 0 0.3em 1.5em</div><div class="line">padding 1.2em 1em 0 1em</div><div class="line">max-width 28%</div><div class="line"></div><div class="line">.toc-title</div><div class="line">font-size 120%</div><div class="line"></div><div class="line"><span class="comment">#toc</span></div><div class="line">line-height 1em</div><div class="line">font-size 0.9em</div><div class="line"><span class="built_in">float</span> right</div><div class="line">.toc</div><div class="line">padding 0</div><div class="line">margin 1em</div><div class="line">line-height 1.8em</div><div class="line">li</div><div class="line">list-style-type none</div><div class="line"></div><div class="line">.toc-child </div><div class="line">margin-left 1em</div></pre></td></tr></table></figure></p>
+<p>打开新建的markdown文件,在文件开头添加<strong>toc:true</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hexo + Github Pages 搭建个人博客</div><div class="line">toc: <span class="literal">true</span></div><div class="line">---</div></pre></td></tr></table></figure></p>
+<h3 id="添加tag"><a href="#添加tag" class="headerlink" title="添加tag"></a>添加tag</h3><p>打开新建的markdown文件,在文件开头添加tag<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hexo + Github Pages 搭建个人博客</div><div class="line">toc: <span class="literal">true</span></div><div class="line">tag:    </div><div class="line">- Node.js   <span class="comment">#Node.js分类</span></div><div class="line">- git       <span class="comment">#git分类</span></div><div class="line">- hexo      <span class="comment">#hexo分类</span></div><div class="line">- yilia     <span class="comment">#yilia分类</span></div><div class="line">---</div></pre></td></tr></table></figure></p>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><h3 id="在github上新建Repository"><a href="#在github上新建Repository" class="headerlink" title="在github上新建Repository"></a>在github上新建Repository</h3><p>建立与你用户名对应的仓库，仓库名必须为【your_user_name.github.io】，固定写法</p>
+<h3 id="修改-config-yml"><a href="#修改-config-yml" class="headerlink" title="修改_config.yml"></a>修改_config.yml</h3><p>翻到最下面，改成我这样子的<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">     <span class="built_in">type</span>: git</div><div class="line">     repo: git@github.com:vectorstack/vectorstack.github.io.git</div><div class="line">     branch: master</div></pre></td></tr></table></figure></p>
+<p>然后执行命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save <span class="comment">#安装模块</span></div><div class="line">$ hexo generate  <span class="comment">#生成静态页面</span></div><div class="line">$ hexo deploy <span class="comment">#部署到github上</span></div></pre></td></tr></table></figure></p>
+<h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>根据自己的喜好,选择不同的<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">主题</a>,我用的是<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">yilia</a>，使用如下：</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</div></pre></td></tr></table></figure>
+<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>修改hexo根目录下的_config.yml<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: yilia</div></pre></td></tr></table></figure></p>
+<p>修改主题配置文件在主目录下的_config.yml,可根据自己需要修改使用,我的配置如下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Header</span></div><div class="line"></div><div class="line">menu:</div><div class="line">  主页: /</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># SubNav</span></div><div class="line">subnav:</div><div class="line">  github: <span class="string">"https://github.com/vectorstack"</span></div><div class="line">  <span class="comment">#weibo: "#"</span></div><div class="line">  <span class="comment">#rss: "#"</span></div><div class="line">  <span class="comment">#zhihu: "#"</span></div><div class="line">  <span class="comment">#qq: "#"</span></div><div class="line">  weixin: <span class="string">"295253797"</span></div><div class="line">  jianshu: <span class="string">"http://www.jianshu.com/users/b1de11fb5ecc/timeline"</span></div><div class="line">  <span class="comment">#douban: "#"</span></div><div class="line">  <span class="comment">#segmentfault: "#"</span></div><div class="line">  <span class="comment">#bilibili: "#"</span></div><div class="line">  <span class="comment">#acfun: "#"</span></div><div class="line">  mail: <span class="string">"mailto:295253797@qq.com"</span></div><div class="line">  <span class="comment">#facebook: "#"</span></div><div class="line">  <span class="comment">#google: "#"</span></div><div class="line">  <span class="comment">#twitter: "#"</span></div><div class="line">  <span class="comment">#linkedin: "#"</span></div><div class="line"></div><div class="line">rss: /atom.xml</div><div class="line"></div><div class="line"><span class="comment"># 是否需要修改 root 路径</span></div><div class="line"><span class="comment"># 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，</span></div><div class="line"><span class="comment"># 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。</span></div><div class="line">root: </div><div class="line"></div><div class="line"><span class="comment"># Content</span></div><div class="line"></div><div class="line"><span class="comment"># 文章太长，截断按钮文字</span></div><div class="line">excerpt_link: more</div><div class="line"><span class="comment"># 文章卡片右下角常驻链接，不需要请设置为false</span></div><div class="line">show_all_link: <span class="string">'展开全文'</span></div><div class="line"><span class="comment"># 数学公式</span></div><div class="line">mathjax: <span class="literal">false</span></div><div class="line"><span class="comment"># 是否在新窗口打开链接</span></div><div class="line">open_in_new: <span class="literal">false</span></div><div class="line"></div><div class="line"><span class="comment"># 打赏</span></div><div class="line"><span class="comment"># 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏</span></div><div class="line">reward_type: 2</div><div class="line"><span class="comment"># 打赏wording</span></div><div class="line">reward_wording: <span class="string">'谢谢你请我吃糖果'</span></div><div class="line"><span class="comment"># 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg</span></div><div class="line">alipay: </div><div class="line"><span class="comment"># 微信二维码图片地址</span></div><div class="line">weixin: </div><div class="line"></div><div class="line"><span class="comment"># 目录</span></div><div class="line"><span class="comment"># 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录</span></div><div class="line">toc: 1</div><div class="line"><span class="comment"># 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false</span></div><div class="line">toc_hide_index: <span class="literal">true</span></div><div class="line"><span class="comment"># 目录为空时的提示</span></div><div class="line">toc_empty_wording: <span class="string">'目录，不存在的…'</span></div><div class="line"></div><div class="line"><span class="comment"># 是否有快速回到顶部的按钮</span></div><div class="line">top: <span class="literal">true</span></div><div class="line"></div><div class="line"><span class="comment"># Miscellaneous</span></div><div class="line">baidu_analytics: <span class="string">''</span></div><div class="line">google_analytics: <span class="string">''</span></div><div class="line">favicon: /img/photo.png</div><div class="line"></div><div class="line"><span class="comment">#你的头像url</span></div><div class="line">avatar: /img/photo.png</div><div class="line"></div><div class="line"><span class="comment">#是否开启分享</span></div><div class="line">share_jia: <span class="literal">true</span></div><div class="line"></div><div class="line"><span class="comment">#评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus 不需要使用某项，直接设置值为false，或注释掉</span></div><div class="line"><span class="comment">#具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/</span></div><div class="line"></div><div class="line"><span class="comment">#1、多说</span></div><div class="line">duoshuo: <span class="literal">false</span></div><div class="line"></div><div class="line"><span class="comment">#2、网易云跟帖</span></div><div class="line">wangyiyun: <span class="literal">false</span></div><div class="line"></div><div class="line"><span class="comment">#3、畅言</span></div><div class="line">changyan_appid: <span class="literal">false</span></div><div class="line">changyan_conf: <span class="literal">false</span></div><div class="line"></div><div class="line"><span class="comment">#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的</span></div><div class="line">disqus: <span class="literal">false</span></div><div class="line"></div><div class="line"><span class="comment"># 样式定制 - 一般不需要修改，除非有很强的定制欲望…</span></div><div class="line">style:</div><div class="line">  <span class="comment"># 头像上面的背景颜色</span></div><div class="line">  header: <span class="string">'#4d4d4d'</span></div><div class="line">  <span class="comment"># 右滑板块背景</span></div><div class="line">  slider: <span class="string">'linear-gradient(200deg,#a0cfe4,#e8c37e)'</span></div><div class="line"></div><div class="line"><span class="comment"># slider的设置</span></div><div class="line">slider:</div><div class="line">  <span class="comment"># 是否默认展开tags板块</span></div><div class="line">  showTags: <span class="literal">false</span></div><div class="line"></div><div class="line"><span class="comment"># 智能菜单</span></div><div class="line"><span class="comment"># 如不需要，将该对应项置为false</span></div><div class="line"><span class="comment"># 比如</span></div><div class="line"><span class="comment">#smart_menu:</span></div><div class="line"><span class="comment">#  friends: false</span></div><div class="line">smart_menu:</div><div class="line">  innerArchive: <span class="string">'所有文章'</span></div><div class="line">  friends: <span class="string">''</span></div><div class="line">  aboutme: <span class="string">'关于我'</span></div><div class="line"></div><div class="line">friends:</div><div class="line">  友情链接1: http://localhost:4000/</div><div class="line">  友情链接2: http://localhost:4000/</div><div class="line">  友情链接3: http://localhost:4000/</div><div class="line">  友情链接4: http://localhost:4000/</div><div class="line">  友情链接5: http://localhost:4000/</div><div class="line">  友情链接6: http://localhost:4000/</div><div class="line"></div><div class="line">aboutme: 很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div><div class="line"></div><div class="line">archive: 2</div></pre></td></tr></table></figure></p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -225,19 +270,121 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/08/21/hexo/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2017/08/22/database/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          mongoDB 安装
+        
+      </div>
+    </a>
   
   
-    </div></section>
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#系统环境配置"><span class="toc-number">1.</span> <span class="toc-text">系统环境配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装Node-js"><span class="toc-number">1.1.</span> <span class="toc-text">安装Node.js</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装git"><span class="toc-number">1.2.</span> <span class="toc-text">安装git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装hexo"><span class="toc-number">1.3.</span> <span class="toc-text">安装hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#编写博客"><span class="toc-number">2.</span> <span class="toc-text">编写博客</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#新建博客"><span class="toc-number">2.1.</span> <span class="toc-text">新建博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加目录"><span class="toc-number">2.2.</span> <span class="toc-text">添加目录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加tag"><span class="toc-number">2.3.</span> <span class="toc-text">添加tag</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#部署"><span class="toc-number">3.</span> <span class="toc-text">部署</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#在github上新建Repository"><span class="toc-number">3.1.</span> <span class="toc-text">在github上新建Repository</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#修改-config-yml"><span class="toc-number">3.2.</span> <span class="toc-text">修改_config.yml</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更换主题"><span class="toc-number">4.</span> <span class="toc-text">更换主题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装"><span class="toc-number">4.1.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置"><span class="toc-number">4.2.</span> <span class="toc-text">配置</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
 
 
           </div>
@@ -260,8 +407,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
